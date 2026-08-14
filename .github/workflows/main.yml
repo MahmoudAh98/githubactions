@@ -10,3 +10,7 @@ jobs:
     steps:
       - name: print hello world
         run: echo "hello world"
+      - name: checkout repo
+        uses: actions/checkout@v6.1.0
+      - name: run command
+        run: ls -la
