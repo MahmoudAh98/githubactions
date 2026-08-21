@@ -15,5 +15,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy Application
-        run: echo "Deploying Aplication"
+        run: echo "Deploying Aplication to ${{ inputs.environment }}"
         
