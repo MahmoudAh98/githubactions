@@ -1,0 +1,14 @@
+on: 
+ workflow_dispatch:
+
+jobs:
+  example:
+    runs-on: ubuntu-latest
+    steps:
+      - run: | 
+         depracted=true
+         if [[ depracted ]]; then 
+          echo "::warning::depracted function found"
+        fi
+        
+          
